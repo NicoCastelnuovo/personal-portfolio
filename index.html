@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <nav>
+        <div id="navbar">
+            <a id="home" href="#welcome-section">N</a>
+            <div class="hamburger-container">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+        <div id="menu">
+            <a class="link-menu" href="#about-me-projects-common-cont">About me</a>
+            <a class="link-menu" href="#projects">Projects</a>
+            <a class="link-menu" href="#contacts">Contacts</a>
+        </div>
+    </nav>
+    <div class="main-container">
+        <div id="welcome-section">             
+            <p>Hi, my name is<br> 
+                <b>Nicolò Castelnuovo</b> 
+                <br>and I'm a Frontend Developer.
+            </p>
+            <p>You can call me</p>
+            <h1 id="nico">Nico</h1>
+        </div>
+        <div id="about-me-projects-common-cont">
+            <div id="about-me">
+                <h1 class="section-title">About me</h1>
+                <div id="foto-profile-cont">
+                    <img src="images/foto_profile.jpg">
+                </div>
+                <p>My name is Nicolò. 
+                    Since I would like to make travelling my life-style, 
+                    I decided to change my carrer and become a developer. 
+                    Every day I learn new Technologies, I improve my logic
+                    skills and I build-up Websites and Web-Applications.</p>
+                <br>
+                <h3>Current Status:</h3>
+                <p>I'm currently following courses on <a href="https://www.freecodecamp.org/" 
+                    target="_blank">freeCodeCamp</a>, getting deeper with the knowledge 
+                    and practice in Frontend Devlopment, and I'm available to be hired.</p>
+                <a class="link-button" href="work_in_progress.html">More about Nico!</a>           
+                </div>
+            <div id="projects">
+                <h1 class="section-title">Projects</h1>
+                <div id="previews-container">
+                    <a class="project-tile" 
+                        href="https://codepen.io/NicoCastel/pen/ExwbrqX" target="_blank">
+                        <div class="project-card">
+                            <img src="images/tribute-page.svg" alt="tribute-preview">
+                        </div>
+                    </a>
+                    <a class="project-tile" 
+                        href="https://codepen.io/NicoCastel/pen/rNGpKjB" target="_blank">
+                        <div class="project-card">
+                            <img src="images/survey-form.svg" alt="survey-preview">
+                        </div>
+                    </a>
+                    <a class="project-tile" 
+                        href="https://codepen.io/NicoCastel/details/LYzBGBQ" target="_blank">
+                        <div class="project-card">
+                            <img src="images/product-landing.svg" alt="landing-preview">
+                        </div>
+                    </a>
+                    <a class="project-tile" 
+                        href="https://codepen.io/NicoCastel/pen/vYedXRO" target="_blank">
+                        <div class="project-card">
+                            <img src="images/technical-doc.svg" alt="techincal-preview">
+                        </div>
+                    </a>
+                    <a class="project-tile" 
+                        href="https://codepen.io/NicoCastel/pen/wvrNmgZ" target="_blank">
+                        <div class="project-card">
+                            <img src="images/personal-portfolio.svg" alt="oldportfolio-preview">
+                        </div>
+                    </a>
+                </div>
+                <a class="link-button" href="work_in_progress.html">See all the projects</a>
+            </div>
+        </div>
+        <div id="contacts">
+            <a id="mail" href="mailto:nico.castelnuovo@outlook.com" target="_blank">
+                <span class="icons fa-solid fa-at"></span></a>
+            <a id="github" href="https://github.com/NicoCastelnuovo" target="_blank">
+                <span class="icons fa-brands fa-github"></span></a>
+            <a id="profile-link" href="https://www.freecodecamp.org/NicoCastel" target="_blank">
+                <span class="icons fa-brands fa-free-code-camp"></span></a>
+            <a id="twitter" href="https://twitter.com/NicoCastel_" target="_blank">
+                <span class="icons fa-brands fa-twitter"></span></a>
+            </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/7898a4a4f9.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function()
+        {
+            // navbar goes to menu
+            $(".hamburger-container").click(function()
+            {
+                $("#menu").fadeToggle(300).css("display", "flex");
+            });
+            $(".link-menu").click(function()
+            {
+                $("#menu").hide();
+            });
+        });
+    
+        // hide nav bar
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos)
+        {
+            document.getElementById("navbar").style.top = "0";
+        }
+        else 
+        {
+            document.getElementById("navbar").style.top = "-50px";
+        }
+        document.getElementById("menu").style.display = "none";
+        prevScrollpos = currentScrollPos;
+        };
+    </script>
+</body>
+</html>
