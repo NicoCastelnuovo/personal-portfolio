@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacts</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar dark-section flex-row">
+      <h3 class="logo white-text">Nico</h3>
+      <ul class="navbar-list flex-row gap-12">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="./projects.html">Projects</a></li>
+        <li><a href="./contacts.html">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="dark-section flex-row gap-42 contacts">
+      <div class="flex-column gap-12">
+        <h1 class="white-text">Contacts</h1>
+        <p>
+          Interested in my works? Want to collaborate?<br>
+          Any questions? Want to have a coffee with me, or buy me a coffe?
+        </p>
+        <form action="mailto:nico.castelnuovo@outlook.com">
+          <button type="submit" class="blue-button">Write me!</button>
+        </form>
+      </div>
+      <div class="flex-column gap-12 documents">
+        <h2>Curriculum Vitae & Resume</h2>
+        <ul class="list documents">
+          <li><a href="../docs/nicolo-castelnuovo-cv-en.pdf" download>Download the Curriculum Vitae</a></li>
+          <li><a href="../docs/nicolo-castelnuovo-resume-en.pdf" download>Download the Resume</a></li>
+        </ul>
+      </div>
+      <div class="flex-column gap-12 social">
+        <h2>Social network</h2>
+        <ul class="flex-row gap-33">
+          <li>
+            <a href="https://github.com/NicoCastelnuovo" target="_blank">
+              <div class="image social">
+                <img src="../images/github-logo.svg" alt="github original logo">
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.freecodecamp.org/NicoCastel" target="_blank">
+              <div class="image social">
+                <img src="../images/free-code-camp-logo.svg" alt="freecodecamp original logo">
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="https://codepen.io/NicoCastel" target="_blank">
+              <div class="image social">
+                <img src="../images/codepen-logo.svg" alt="codepen original logo">
+              </div>
+            </a>
+          </li>
+        </ul> 
+      </div>
+    </section>
+  
+    <!-- <section class="white-section contacts no-padding-smart-screen" action="#">
+      <form id="form" class="blue-card flex-column gap-12 contacts">
+        <legend><h3>Contact form</h3></legend>
+        <label for="purpose">Purpose of contact</label>
+        <input id="purpose" name="purpose" type="text" placeholder="Write the main reason of your message" required>
+        <label for="name">Name and Lastname</label>
+        <input id="name" name="name" type="text" placeholder="Name Lastname" required>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="Email" required>
+        <label for="message">Message text</label>
+        <textarea id="message" name="message" placeholder="Message text" required></textarea>
+        <button type="submit" class="blue-button white-border contacts">Submit</button>
+      </form>
+    </section> -->
+  </main>
+  <footer>WebSite made by NicoCastel - Copyright &copy</footer>
+</body>
+</html>
