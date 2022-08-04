@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Tribute page",
+    "image": "../images/projects/tribute-page.gif",
+    "info": "A single page website taliking about the history of one of my favourite punk band <em>Ramones</em>. The projects is built following the requirements on freeCodeCamp.",
+    "tech": ["HTML", "CSS", ""],
+    "href": ["#", "GitHub"]
+  }
+
+
+  
+]
