@@ -3,7 +3,7 @@ const buildProjectCard = (project) => {
     `
       <article class="grey-section flex-column gap-12 projects">
         <figure class="image-box projects"> 
-          <img class="image projects" src="${project.image}" alt="Preview of Tribute Page project">
+          <img class="image projects" src="${project.image}" alt="Preview of ${project.title} project">
         </figure>
         <h3>${project.title}</h3>
         <ul class="list flex-column gap-42 projects">
@@ -35,7 +35,7 @@ $(document).ready(function() {
   $.ajax({url: "../data/projects.json", success: (data) => {
     for (let i = 0; i < data.length; i++) {
       let card = buildProjectCard(data[i]);
-      $('.container').append(card)
+      $('#container').append(card)
     }
   }})
 })

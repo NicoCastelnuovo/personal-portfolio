@@ -1,12 +1,93 @@
 [
   {
+    "title": "jS Calculator",
+    "image": "../images/projects/js-calculator.gif",
+    "info": "A calculator built following the requirements given by Brainnest Company, during the training month. I implemented also for fun dark mode and on/off switch button.",
+    "tech": ["HTML", "CSS", "jS"],
+    "href": ["https://nicocastelnuovo.github.io/calculator-jS-brainnest/", "GitHub"]
+  },
+  {
     "title": "Tribute page",
     "image": "../images/projects/tribute-page.gif",
     "info": "A single page website taliking about the history of one of my favourite punk band <em>Ramones</em>. The projects is built following the requirements on freeCodeCamp.",
     "tech": ["HTML", "CSS", ""],
-    "href": ["#", "GitHub"]
+    "href": ["https://nicocastelnuovo.github.io/tribute-page/", "GitHub"]
+  },
+  {
+    "title": "Survey Form",
+    "image": "../images/projects/survey-form.gif",
+    "info": "A survey form for an imaginary travel company. The projects is built following the requirements on freeCodeCamp.",
+    "tech": ["HTML", "CSS", ""],
+    "href": ["https://nicocastelnuovo.github.io/survey-form/", "GitHub"]
+  },
+  {
+    "title": "Technical Doc Page",
+    "image": "../images/projects/technical-documentation.gif",
+    "info": "A single-page web site which talks about basic concepts about HTML and CSS. The projects is built following the requirements on freeCodeCamp.",
+    "tech": ["HTML", "CSS", ""],
+    "href": ["https://nicocastelnuovo.github.io/technical-documentation-page/", "GitHub"]
+  },
+  {
+    "title": "Product Landing Page",
+    "image": "../images/projects/product-landing.gif",
+    "info": "A single-page web site for an imaginary company which sells armchairs. The projects is built following the requirements on freeCodeCamp.",
+    "tech": ["HTML", "CSS", ""],
+    "href": ["https://nicocastelnuovo.github.io/product-landing-page/", "GitHub"]
+  },
+  {
+    "title": "Talking Tucan",
+    "image": "../images/projects/talking-tucan.gif",
+    "info": "Try this talking Tucan, but attention! He speaks only english at the moment. Project done during the Boolean Coding week.",
+    "tech": ["HTML", "CSS", "jS"],
+    "href": ["https://nicocastelnuovo.github.io/talking-tucan-app/", "GitHub"]
+  },
+  {
+    "title": "Piano App",
+    "image": "../images/projects/piano-app.gif",
+    "info": "A very simple Piano App, made during the Boolean Coding week.",
+    "tech": ["HTML", "CSS", "jS"],
+    "href": ["https://nicocastelnuovo.github.io/piano-app/", "GitHub"]
+  },
+  {
+    "title": "Rock, Paper & Scissors",
+    "image": "../images/projects/rock-paper-scissors.gif",
+    "info": "Rock, Paper & Scissors game, built during the Brainnest Intensive training, qith a minimal and simple style.",
+    "tech": ["HTML", "CSS", "jS"],
+    "href": ["https://nicocastelnuovo.github.io/rock-paper-scissors-jS-with-UI-brainnest/", "GitHub"]
+  },
+  {
+    "title": "Markdown Previewer",
+    "image": "../images/projects/markdown-previewer.gif",
+    "info": "A Markdown Previewer built following the requirements on freeCodeCamp.",
+    "tech": ["HTML", "CSS", "React"],
+    "href": ["https://codepen.io/NicoCastel/pen/MWQbNVG", "CodePen"]
+  },
+  {
+    "title": "OddBlack EvenWhite",
+    "image": "../images/projects/odd-even.gif",
+    "info": "The project is made to partecipate the CodePen Challange about Even & Odd numbers. This is my simple idea of a project which includes them.",
+    "tech": ["HTML", "CSS", "React"],
+    "href": ["https://codepen.io/NicoCastel/pen/PoQrNWZ?editors=0010", "CodePen"]
+  },
+  {
+    "title": "Drum Machine",
+    "image": "../images/projects/drum-machine.gif",
+    "info": "I would call it Farm Machine, but the beginning project was a Drum Machine. The projects is built following the requirements on freeCodeCamp.",
+    "tech": ["HTML", "CSS", "React"],
+    "href": ["https://codepen.io/NicoCastel/pen/vYdexwr", "CodePen"]
+  },
+  {
+    "title": "25+5 Clock",
+    "image": "../images/projects/25+5-clock.gif",
+    "info": "A timer built using React. The rules and the behaviour follow the requirements asked by freeCodeCamp.",
+    "tech": ["HTML", "CSS", "React"],
+    "href": ["https://codepen.io/NicoCastel/pen/ZErwEMa", "CodePen"]
+  },
+  {
+    "title": "Random Quote Machine",
+    "image": "../images/projects/random-quote-machine.gif",
+    "info": "A Random Quote Machine, which take data from an external JSON quote object. The projects is built following the requirements on freeCodeCamp.",
+    "tech": ["HTML", "CSS", "React"],
+    "href": ["https://codepen.io/NicoCastel/pen/PoQpPLg", "CodePen"]
   }
-
-
-  
 ]

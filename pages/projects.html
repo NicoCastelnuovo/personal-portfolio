@@ -7,7 +7,7 @@
   <title>Nicolò Castelnuovo - Portfolio Projects</title>
   <link rel="stylesheet" href="../style.css">
   <script src="../scripts/jquery-3.6.0.min.js"></script>
-  <script src="../scripts/productScript.js" defer></script>
+  <script src="../scripts/projectsScript.js" defer></script>
 </head>
 <body>
   <header>
@@ -31,199 +31,13 @@
       </p>
     </section>
       
-    <section id="projectsGrid" class="white-section flex-row gap-24 projects">
-      <div class="container">
+    <section id="projectsGrid">
+      <div id="container" class="white-section flex-row gap-24 projects">
         
       </div>
     </section>
+      
       <!-- <article class="grey-section flex-column gap-12 projects">
-        <figure class="image-box projects"> 
-          <img class="image projects" src="../images/projects/tribute-page.gif" alt="Preview of Tribute Page project">
-        </figure>
-        <h3>Tribute Page</h3>
-        <ul class="list flex-column gap-42 projects">
-          <li>
-            <p>
-              A single page website taliking about the history of one of my favourite 
-              punk band <em>Ramones</em>. The projects is built following the requirements
-              on freeCodeCamp.
-            </p>
-          </li>
-          <li>
-             <ul class="sub-list flex-row gap-12 projects">
-              <li class="sub-list-item projects">HTML</li>
-              <li class="sub-list-item projects">CSS</li>
-              <li class="sub-list-item link projects">
-                <a class="link" href="#">GitHub</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </article>
-
-      <article class="grey-section flex-column gap-12 projects">
-        <figure class="image-box projects"> 
-          <img class="image projects" src="../images/projects/survey-form.gif" alt="Preview of Survey Form project">
-        </figure>
-        <h3>Survey form</h3>
-        <ul class="list flex-column gap-42 projects">
-          <li>
-            <p>
-              A survey form for an imaginary travel company. The projects is built 
-              following the requirements on freeCodeCamp.
-            </p>
-          </li>
-          <li>
-            <ul class="sub-list flex-row gap-12 projects">
-              <li class="sub-list-item projects">HTML</li>
-              <li class="sub-list-item projects">CSS</li>
-              <li class="sub-list-item link projects">
-                <a class="link" href="https://github.com/NicoCastelnuovo/survey-form" target="_blank">GitHub</a>
-              </li>
-            </ul>
-          </li>
-      </article>
-
-      <article class="grey-section flex-column gap-12 projects">
-        <figure class="image-box projects"> 
-          <img class="image projects" src="../images/projects/product-landing.gif" alt="Preview of Product Landing project">
-        </figure>
-        <h3>Product Landing page</h3>
-        <ul class="list flex-column gap-42 projects">
-          <li>
-            <p>
-              A single-page web site for an imaginary company which sells armchairs. The 
-              projects is built following the requirements on freeCodeCamp.
-            </p>
-          </li>
-          <li>
-            <ul class="sub-list flex-row gap-12 projects">
-              <li class="sub-list-item projects">HTML</li>
-              <li class="sub-list-item projects">CSS</li>
-              <li class="sub-list-item link projects">
-                <a class="link" href="#">GitHub</a>
-              </li>
-            </ul>
-          </li>
-      </article>
-
-      <article class="grey-section flex-column gap-12 projects">
-        <figure class="image-box projects"> 
-          <img class="image projects" src="../images/projects/technical-documentation.gif" alt="Preview of Technical Documentation project">
-        </figure>
-        <h3>Technical Documentation page</h3>
-        <ul class="list flex-column gap-42 projects">
-          <li>
-            <p>
-              A single-page web site which talks about basic concepts about HTML and 
-              CSS. The projects is built following the requirements on freeCodeCamp.
-            </p>
-          </li>
-          <li>
-            <ul class="sub-list flex-row gap-12 projects">
-              <li class="sub-list-item projects">HTML</li>
-              <li class="sub-list-item projects">CSS</li>
-              <li class="sub-list-item link projects">
-                <a class="link" href="#">GitHub</a>
-              </li>
-            </ul>
-          </li>
-      </article>
-
-      <article class="grey-section flex-column gap-12 projects">
-        <figure class="image-box projects"> 
-          <img class="image projects" src="../images/projects/rock-paper-scissors.jpg" alt="Preview of Rock, paper & Scissors project">
-        </figure>
-        <h3>Rock, paper & Scissors</h3>
-        <ul class="list flex-column gap-42 projects">
-          <li>
-            <p>
-              This mini-game is built following the requirements given by Brainnest Company, 
-              during the intensive learning month.
-            </p>
-          </li>
-          <li>
-            <ul class="sub-list flex-row gap-12 projects">
-              <li class="sub-list-item projects">jS</li>
-              <li class="sub-list-item link projects">
-                <a class="link" href="#">GitHub</a>
-              </li>
-            </ul>
-          </li>
-      </article>
-
-      <article class="grey-section flex-column gap-12 projects">
-        <figure class="image-box projects"> 
-          <img class="image projects" src="../images/projects/js-calculator.gif" alt="Preview of javaScript Calculator project">
-        </figure>
-        <h3>javaScript Calculator</h3>
-        <ul class="list flex-column gap-42 projects">
-          <li>
-            <p>
-              This calculator is built following the requirements given by Brainnest Company. 
-              I implemented also for fun dark mode and on/off switch button.
-            </p>
-          </li>
-          <li>
-            <ul class="sub-list flex-row gap-12 projects">
-              <li class="sub-list-item projects">HTML</li>
-              <li class="sub-list-item projects">CSS</li>
-              <li class="sub-list-item projects">jS</li>
-              <li class="sub-list-item link projects">
-                <a class="link" href="https://nicocastelnuovo.github.io/calculator-jS-brainnest/">CodePen</a>
-              </li>
-            </ul>
-          </li>
-      </article>
-
-      <article class="grey-section flex-column gap-12 projects">
-        <figure class="image-box projects"> 
-          <img class="image projects" src="../images/projects/talking-tucan.gif" alt="Preview of Talking Tucan app project">
-        </figure>
-        <h3>Talking Tucan</h3>
-        <ul class="list flex-column gap-42 projects">
-          <li>
-            <p>
-              Try this talking Tucan, but attention! He speaks only english at the 
-              moment. Project done during the Boolean Coding week.
-            </p>
-          </li>
-          <li>
-            <ul class="sub-list flex-row gap-12 projects">
-              <li class="sub-list-item projects">HTML</li>
-              <li class="sub-list-item projects">CSS</li>
-              <li class="sub-list-item projects">jS</li>
-              <li class="sub-list-item link projects">
-                <a class="link" href="https://nicocastelnuovo.github.io/talking-tucan-app/">GitHub</a>
-              </li>
-            </ul>
-          </li>
-      </article>
-
-      <article class="grey-section flex-column gap-12 projects">
-        <figure class="image-box projects"> 
-          <img class="image projects" src="../images/projects/piano-app.gif" alt="Preview of Piano app project">
-        </figure>
-        <h3>Piano App</h3>
-        <ul class="list flex-column gap-42 projects">
-          <li>
-            <p>
-              A very simple Piano App, made during the Boolean Coding week.
-            </p>
-          </li>
-          <li>
-            <ul class="sub-list flex-row gap-12 projects">
-              <li class="sub-list-item projects">HTML</li>
-              <li class="sub-list-item projects">CSS</li>
-              <li class="sub-list-item projects">jS</li>
-              <li class="sub-list-item link projects">
-                <a class="link" href="https://nicocastelnuovo.github.io/piano-app/">GitHub</a>
-              </li>
-            </ul>
-          </li>
-      </article>
-
-      <article class="grey-section flex-column gap-12 projects">
         <figure class="image-box projects"> 
           <img class="image projects" src="" alt="Preview of Random quote machine project">
         </figure>
@@ -294,54 +108,6 @@
             </ul>
           </li>
       </article>
-
-      <article class="grey-section flex-column gap-12 projects">
-        <figure class="image-box projects"> 
-          <img class="image projects" src="" alt="Preview of 25+5 Clock project">
-        </figure>
-        <h3>25+5 Clock</h3>
-        <ul class="list flex-column gap-42 projects">
-          <li>
-            <p>
-              A timer built using React. The rules and the behaviour follow the 
-              requirements asked by freeCodeCamp.
-            </p>
-          </li>
-          <li>
-            <ul class="sub-list flex-row gap-12 projects">
-              <li class="sub-list-item projects">HTML</li>
-              <li class="sub-list-item projects">CSS</li>
-              <li class="sub-list-item projects">React</li>
-              <li class="sub-list-item link projects">
-                <a class="link" href="https://codepen.io/NicoCastel/pen/ZErwEMa">CodePen</a>
-              </li>
-            </ul>
-          </li>
-      </article>
-
-      <article class="grey-section flex-column gap-12 projects">
-        <figure class="image-box projects"> 
-          <img class="image projects" src="" alt="Preview of OddBlack EvenWhite project">
-        </figure>
-        <h3>OddBlack EvenWhite</h3>
-        <ul class="list flex-column gap-42 projects">
-          <li>
-            <p>
-              The project is made to partecipate the CodePen Challange about Even & Odd 
-              numbers. This is my simple idea of a project which includes them. 
-            </p>
-          </li>
-          <li>
-            <ul class="sub-list flex-row gap-12 projects">
-              <li class="sub-list-item projects">HTML</li>
-              <li class="sub-list-item projects">CSS</li>
-              <li class="sub-list-item projects">React</li>
-              <li class="sub-list-item link projects">
-                <a class="link" href="https://codepen.io/NicoCastel/details/PoQrNWZ">CodePen</a>
-              </li>
-            </ul>
-          </li>
-      </article> -->
 
   </main>
   <footer>WebSite made by NicoCastel - Copyright &copy</footer>

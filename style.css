@@ -347,7 +347,7 @@ div.social {
 
 
 /* ----------------------- MEDIA QUERIES ----------------------- */
-@media screen and (max-width: 494px) {
+@media screen and (/*max-width: 494px*/) {
   /* Navbar */
   .logo {
     text-align: center;
@@ -357,7 +357,7 @@ div.social {
     align-items: center;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (/*max-width: 768px*/) {
   /* Shared components */
   .grey-section {
     padding: 120px 10%;
@@ -381,7 +381,7 @@ div.social {
     font-size: 1.5em;
   }
 }
-@media screen and (min-width: 2560px) {
+@media screen and (/*min-width: 2560px*/) {
   html {
       font-size: 42px;
   }
