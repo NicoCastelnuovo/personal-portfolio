@@ -2,7 +2,7 @@
   {
     "title": "jS Calculator",
     "image": "../images/projects/js-calculator.gif",
-    "info": "A calculator built following the requirements given by Brainnest Company, during the training month. I implemented also for fun dark mode and on/off switch button.",
+    "info": "A calculator built with Brainnest Company, during the training month. I implemented also for fun dark mode and on/off switch button.",
     "tech": ["HTML", "CSS", "jS"],
     "href": ["https://nicocastelnuovo.github.io/calculator-jS-brainnest/", "GitHub"]
   },

@@ -297,7 +297,7 @@ p.action {
 }
 .sub-list-item.projects {
   background-color: var(--yellow);
-  padding: 6px 12px;
+  padding: 6px 3px;
   border-radius: 15px;
 }
 .sub-list-item.link.projects {
@@ -315,6 +315,7 @@ p.action {
 .dark-section.contacts {
   flex-wrap: wrap;
   justify-content: space-between;
+  height: auto;
 }
 /* Contacts */
 
@@ -337,6 +338,10 @@ div.social {
   width: 100%;
   height: 100%;
 }
+.image.social > img:hover {
+  width: 110%;
+  height: 110%;
+}
 
 
 /* Form section */
@@ -347,21 +352,14 @@ div.social {
 
 
 /* ----------------------- MEDIA QUERIES ----------------------- */
-@media screen and (/*max-width: 494px*/) {
+@media screen and (max-width: 494px) {
   /* Navbar */
   .logo {
     text-align: center;
   }
-  /* Contacts page */
-  .white-section.contacts {
-    align-items: center;
-  }
 }
-@media screen and (/*max-width: 768px*/) {
+@media screen and (max-width: 1200px) {
   /* Shared components */
-  .grey-section {
-    padding: 120px 10%;
-  }
   .blue-card {
     border-radius: 0;
   }
@@ -376,12 +374,22 @@ div.social {
     flex-grow: 1;
     justify-content: space-between;
   }
+  /* Home page - tech stack */
+  .dark-section.hero {
+    height: auto;
+  }
+  .white-section.info {
+    height: auto;
+  }
+  .blue-card.action {
+    flex-wrap: wrap;
+  }
   /* Home page - Quote section */
   .grey-section.home-quote {
     font-size: 1.5em;
   }
 }
-@media screen and (/*min-width: 2560px*/) {
+@media screen and (min-width: 2560px) {
   html {
       font-size: 42px;
   }
