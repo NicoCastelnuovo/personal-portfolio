@@ -10,7 +10,9 @@
 <body>
   <header>
     <nav class="navbar dark-section flex-row">
-      <h3 class="logo white-text">Nico</h3>
+      <a class="logo white-text" href="../index.html">
+        <h3 >Nico</h3>
+      </a>
       <ul class="navbar-list flex-row gap-12">
         <li><a href="./index.html">Home</a></li>
         <li><a href="./pages/projects.html">Projects</a></li>
@@ -19,7 +21,7 @@
     </nav>
   </header>
   <main class="flex-column">
-    <section class="dark-section flex-row gap-33 hero">
+    <section id="hero" class="dark-section flex-row gap-33 hero">
       <div class="flex-row gap-12 hero">
         <h1 class="white-text"><strong>Hi! My name is </strong>Nico</h1>
         <h2>Front End Developer</h2>
@@ -28,21 +30,20 @@
           about Front End Development, but I'm learning to become a Full Stack
           Developer.
         </p>
-        <h3>Want to know more?</h3>
-        <a class="blue-button hero" href="#skills">I want to know more!</a>
+        <a class="button hero" href="#skills">Want to know more?</a>
       </div>
-      <div class="image-box hero">
+      <figure class="image-box hero">
         <img class="image hero" src="./images/foto_profile.jpg" alt="foto of Nicolò Castelnuovo">
-      </div>
+      </figure>
     </section>
 
-    <section id="skills" class="white-section flex-column gap-42 info">
-      <h2>Let's see my skills</h2>
-      <ul class="list flex-row gap-42 info">
-        <li class="list-item info">
-          <figure class="figure info">
-            <div class="image-box info">
-              <img class="image info" src="./images/html5-logo.svg" alt="html5 original logo">
+    <section id="skills" class="white-section flex-column gap-42 skills">
+      <h2>My skills</h2>
+      <ul class="list flex-row gap-42 skills">
+        <li class="list-item skills">
+          <figure class="figure skills">
+            <div class="image-box skills">
+              <img class="image skills" src="./images/html5-logo.svg" alt="html5 original logo">
             </div>
             <figcaption>
               <strong>HTML5</strong> - In my projects, the &ltdiv&gt is almost forbidden! Using a 
@@ -50,10 +51,10 @@
             </figcaption>
           </figure>
         </li>
-        <li class="list-item info">
-          <figure class="figure info">
-            <div class="image-box info">
-              <img class="image info" src="./images/css3-logo.svg" alt="css3 original logo">
+        <li class="list-item skills">
+          <figure class="figure skills">
+            <div class="image-box skills">
+              <img class="image skills" src="./images/css3-logo.svg" alt="css3 original logo">
             </div>
             <figcaption>
               <strong>CSS3</strong> - Not only adjusting padding and margin. Here the big 
@@ -61,10 +62,10 @@
             </figcaption>
           </figure>
         </li>
-        <li class="list-item info">
-          <figure class="figure info">
-            <div class="image-box info">
-              <img class="image info" src="./images/js-logo.svg" alt="javascript original logo">
+        <li class="list-item skills">
+          <figure class="figure skills">
+            <div class="image-box skills">
+              <img class="image skills" src="./images/js-logo.svg" alt="javascript original logo">
             </div>
             <figcaption>
               <strong>javaScript</strong> - Do you want to add some magic in your WebSite? 
@@ -72,10 +73,10 @@
             </figcaption>
           </figure>
         </li>
-        <li class="list-item info">
-          <figure class="figure info">
-            <div class="image-box info">
-              <img class="image info" src="./images/react-logo.svg" alt="react original logo">
+        <li class="list-item skills">
+          <figure class="figure skills">
+            <div class="image-box skills">
+              <img class="image skills" src="./images/react-logo.svg" alt="react original logo">
             </div>
             <figcaption>
               <strong>React, jQuery, SASS, BEM</strong> are only a few technologies with which 
@@ -95,17 +96,19 @@
           <a>Link to the project</a>
         </li>
       </ul>
-      <a class="blue-button hero" href="./pages/projects.html">See more!</a>
+      <a class="button hero" href="./pages/projects.html">See more!</a>
     </section> -->
 
     <section class="white-section action no-padding-smart-screen">
-      <form action="mailto:nico.castelnuovo@outlook.com" class="blue-card flex-row gap-24 action">
+      <form action="mailto:nico.castelnuovo@outlook.com" class="form flex-row gap-24 action">
         <p class="action">
           <strong>Questions? Curiousity? Collaboration?</strong> <br>
           Send me an email or download my resume by clicking the nearby buttons! 
         </p>
-        <button type="submit" class="blue-button white-border action">E-Mail</button>
-        <a href="./docs/nicolo-castelnuovo-cv.pdf" class="blue-button white-border action" download>Download CV</a>
+        <button type="submit" class="button white-border action">E-Mail</button>
+        <a href="./docs/nicolo-castelnuovo-cv.pdf" class="button white-border action" download>
+          Download CV
+        </a>
       </form>
     </section>
   </main>
